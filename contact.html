@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>London Real Estate Inc</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<style>
+.auto-style1 {
+	float: right;
+	border-width: 0px;
+	margin-left: 6px;
+}
+</style> 
+<link href="projectStyles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>London Real Estate Inc.</h1>
+  </header>
+    <nav>
+		<ul>
+			<li class="page"><a href="home.html">Home</a></li>
+		   <li class="page"><a href="Listings.html">Active Listings</a></li>
+		   <li class="page"><a href="Contact.html">Contact</a></li>
+		   <li class="page"><a href="Sitemap.html">Sitemap</a></li>
+		  </ul>
+    </nav>
+    <main>
+    <h2><span lang="en-ca">Contact Us</span></h2><br>
+    <form action="mailto:amysira@google.com" method="post">
+      <fieldset>
+      <legend>Personal Info:</legend>
+      <br>
+              <p>
+              <label for="txtFName">First Name:</label>
+              <input id="txtFName" name="txtFName" size="25" tabindex="1" type="text" required="required">
+              </p>
+              <br>
+              <p>
+              <label for="txtLName">Last Name:</label>
+              <input id="txtLName" name="txtLName" size="25" tabindex="3" type="text" required="required">
+              </p>
+              <br>
+              <p>
+              <label for="txtPhone">Phone Number: </label>
+              <input id="txtPhone" name="txtPhone" size="16" tabindex="5" type="text">
+              </p>
+              <br>                 
+              <p>
+              <label for="txtEmail">Email:</label>
+              <input id="txtEmail" name="txtEmail" size="30" tabindex="7" type="email" placeholder="example@examplePlace.ca" required="required">
+              </p>
+      </fieldset>
+      <br>
+      <fieldset>
+      <legend>Property Info</legend>
+              <br>
+              <p>
+              <label for="optProp">Type of Property:</label>
+              <input id="optProp" name="PropertyType" tabindex="9" type="radio" value="House">House &nbsp;
+              <input name="PropertyType" tabindex="10" type="radio" value="Condos">Condo &nbsp;
+              <input name="PropertyType" tabindex="11" type="radio" value="Any">Any &nbsp;
+              </p>
+              <br>
+              <p> 
+              <label for="optbedrooms">Number of Bedrooms:</label>
+              <input id="optbedrooms" name="NumBedrooms" tabindex="12" type="radio" value="1">1 &nbsp;
+              <input  name="NumBedrooms" tabindex="13" type="radio" value="2">2 &nbsp;
+              <input  name="NumBedrooms" tabindex="14" type="radio" value="3">3 &nbsp;
+              <input  name="NumBedrooms" tabindex="15" type="radio" value="3+">4 &nbsp;
+              </p>
+              <br>
+              <p>  
+              <label for="optbathrooms">Number of Bathrooms:</label>
+              <input id="optbathrooms" name="Numbathrooms" tabindex="16" type="radio" value="1">House &nbsp;
+              <input  name="Numbathrooms" tabindex="17" type="radio" value="2">Condo &nbsp;
+              <input  name="Numbathrooms" tabindex="18" type="radio" value="2+">Any &nbsp;
+              </p>
+              <br>
+              <p>
+              <label for="optPrice">Price Range:</label>
+              <input id="optPrice" name="PriceRange" tabindex="16" type="radio" value="1">300,000-400,000 &nbsp;
+              <input name="PriceRange" tabindex="17" type="radio" value="2">401,000-500,000 &nbsp;
+              <input name="PriceRange" tabindex="18" type="radio" value="2+">501,000-700,000 &nbsp;
+              </p>
+              <br>        
+              <p>
+              <label for="txtAddtnlComments">Additional Comments:</label></p>
+              <br>
+              <p><textarea id="txtAddtnlComments" cols="50" name="txtAddtnlComments" rows="10" tabindex="23">---Please let us know about any special services you may require (e.g. assistive typing, note taking, etc.)---</textarea>
+              </p>   
+          </fieldset>
+          <br>
+              <p>
+              <input name="btnSubmit" tabindex="24" type="submit" value="Submit">  
+              <input name="btnReset" tabindex="25" type="reset" value="Clear Form">
+              </p>  
+              <br>
+      </form>
+    </main>
+   <aside class="clearBoth">
+    <figure>
+		<img src="images/AgentPic.jpg" width="300" height="300" alt="Agent Picture">
+		<br><b>Amy Sira</b>
+		<br>Phone: (123) 345 6666
+		<br>Email: <a href="mailto:arai@anupRaiRE.ca">amysira@google.com</a>
+    </figure>
+  </aside> 
+  <footer>
+	Copyright &copy; 2020
+  </footer>
+ </div>
+</body>
+</html>
